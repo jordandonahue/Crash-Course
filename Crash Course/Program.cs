@@ -10,6 +10,10 @@ namespace Crash_Course
     {
         static void Main(string[] args)
         {
+
+            Console.WriteLine("Hello, World!");
+            Console.Read();
+
         }
     }
 }
