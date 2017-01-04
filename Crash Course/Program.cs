@@ -25,10 +25,27 @@ namespace Crash_Course
             Console.WriteLine("double1 = " + double1);
             Console.WriteLine("character1 = " + character1);
             Console.WriteLine("string1 = " + string1);
+            Console.WriteLine("");
+
+            int winningNumber = 2;
+             
+
+            Console.WriteLine("Please enter a number 1-3 to find out if you have won!");
+            string userNumber = Console.ReadLine();
+
+            int userInt;
+            int.TryParse(userNumber, out userInt);
+
+            if (userInt == 2)
+            {
+                Console.WriteLine("You Won!");
+            }
+            else
+            {
+                Console.WriteLine("You Lost!");
+        
+            }
             Console.Read();
-
-
-
         }
     }
 }
